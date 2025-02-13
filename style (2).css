@@ -543,6 +543,7 @@ section{
 
 .readMore:hover{
     background: var(--gradient-color-bg);
+    color: #fff;
 }
 
 .proposal{
@@ -1065,6 +1066,9 @@ footer{
     }
     section{
         padding: 50px 3%;
+    }
+    .right-header .btn{
+        display: none;
     }
     .contact-info form .input-box{
         display: block;
